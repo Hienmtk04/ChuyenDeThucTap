@@ -1,0 +1,6 @@
+.product-title-top p:first-child {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}

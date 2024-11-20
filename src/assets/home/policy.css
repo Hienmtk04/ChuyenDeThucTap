@@ -1,0 +1,107 @@
+.main {
+    width: auto;
+    margin: auto;
+}
+
+.title-top {
+    margin-top: 50px;
+}
+
+.title-top p {
+    font-size: 40px;
+    color: black;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center
+}
+
+.subtitle p {
+    width: 600px;
+    margin: 10px 0;
+    color: #393737;
+}
+
+.policyContainer {
+    margin-top: 20px;
+}
+
+.policyItem {
+    text-align: center;
+}
+
+.policyItem:hover {
+    color: #dea20c;
+}
+
+.policy-title {
+    height: 10px;
+}
+
+.policy-title p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.policy-decription p {
+    font-size: 15px;
+}
+
+.icon {
+    width: 60px;
+}
+
+/*brand---------------------------------------------*/
+
+.system-shop {
+    margin: auto;
+    max-width: 2000px;
+    height: 500px;
+    background-image: url('../../frontend/assets/images/header/Thiet-ke-shop-quan-ao-3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+}
+
+.brand-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(203, 6, 6);
+    /* Dark red color */
+}
+
+.brand-slogan {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.brand-button {
+    background-color: #B01C1C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.brand-button:hover {
+    background-color: #8A1A1A;
+}

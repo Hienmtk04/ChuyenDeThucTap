@@ -1,0 +1,105 @@
+.categoryTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(203, 6, 6);
+
+}
+
+.text-category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: white;
+    font-weight: 400;
+}
+
+.main {
+    background-color: rgb(255, 255, 255);
+}
+
+aside {
+    background-color: rgb(255, 205, 205);
+}
+
+.menu-category {
+    list-style: none;
+    padding: 0;
+
+}
+
+.menu-category li {
+    position: relative;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(228, 223, 223);
+}
+
+.menu-category li  {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    display: block;
+
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    left: 100%; 
+    top: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    min-width: 180px;
+    z-index: 10;
+}
+
+.has-submenu:hover .submenu {
+    display: block;
+}
+
+/* Styling for submenu items */
+.submenu li {
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.submenu li:hover {
+    background-color: rgb(237, 164, 164);
+}
+
+.submenu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu-category li:hover {
+    background-color: rgb(237, 164, 164);
+}
+
+.menu-category li:hover a {
+    color: #000000;
+}
+
+/* Optional responsive styles */
+@media (max-width: 768px) {
+    .menu-category li {
+        position: static;
+    }
+    
+    .submenu {
+        position: static;
+        display: none;
+    }
+    
+    .has-submenu:hover .submenu {
+        display: block;
+    }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    display: none;
+}

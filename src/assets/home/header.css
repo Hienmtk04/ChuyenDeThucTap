@@ -1,0 +1,207 @@
+/* General Styles */
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+}
+
+.marquee-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+    padding-right: 50px;
+    color: rgba(6, 6, 5, 0.719);
+    font-size: 25px;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.li-account {
+    margin: 20px;
+    background-color: rgb(203, 6, 6);
+    height: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.search-smart {
+    position: relative;
+    background-color: transparent;
+    width: 400px;
+}
+
+.search-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.search-smart .header-search-form button {
+    position: absolute;
+    height: 100%;
+    background: transparent;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    background: transparent;
+    size: 30px;
+}
+
+.input-group-field {
+    border: 1px solid rgb(203, 6, 6);
+}
+
+button:hover {
+    color: yellow;
+}
+
+.logo {
+    width: 400px;
+    align-items: center;
+}
+
+.control {
+    margin: 20px;
+}
+
+.header-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: rgb(203, 6, 6);
+
+}
+
+.action-control:hover {
+    color: rgb(206, 163, 7);
+}
+
+.popup-box {
+    position: fixed;
+    top: 200px;
+    left: 540px;
+    min-width: 400px;
+    max-height: 270px;
+    position: relative;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 10;
+}
+
+.popup-box h3 {
+    margin: 0 0 10px;
+}
+
+.popup-box p {
+    margin: 0 0 10px;
+}
+
+.close-button {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.icons-contact {
+    justify-content: space-between;
+}
+
+.fb {
+    margin: 20px;
+    font-size: 40px;
+    color: rgb(11, 46, 219);
+}
+
+.zalo {
+    margin: 20px;
+    font-size: 40px;
+    color: rgb(47, 148, 237);
+}
+
+.phone {
+    margin: 20px;
+    font-size: 40px;
+    color: rgb(235, 55, 38);
+}
+
+/* Responsive Design */
+
+/* For medium-sized devices like tablets (width up to 768px) */
+@media (max-width: 768px) {
+    .marquee-text {
+        font-size: 18px;
+    }
+
+    .search-smart {
+        width: 100%; /* Make search bar full width */
+    }
+
+    .logo {
+        width: 300px; /* Adjust logo size */
+    }
+
+    .header-control {
+        flex-direction: column; /* Stack controls vertically */
+    }
+
+    .control {
+        margin: 10px 0; /* Reduce margins between controls */
+    }
+}
+
+/* For small-sized devices like phones (width up to 576px) */
+@media (max-width: 576px) {
+    .marquee-text {
+        font-size: 16px;
+    }
+
+    .li-account {
+        margin: 10px; /* Reduce margins */
+    }
+
+    .search-smart {
+        width: 100%; /* Full width on mobile */
+    }
+
+    .logo {
+        width: 200px; /* Smaller logo on mobile */
+    }
+
+    .icon {
+        font-size: 20px; /* Smaller icons */
+    }
+
+    .control {
+        margin: 5px 0; /* Tighten up spacing */
+    }
+
+    .popup-box {
+        left: 20px; /* Adjust position for smaller screens */
+        right: 20px;
+        min-width: 90%; /* Make popup take more width */
+    }
+}

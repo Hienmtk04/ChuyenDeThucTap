@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Playwrite+CU:wght@100..400&display=swap');
+
+.round-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.category {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: normal;
+}
+
+.listCategory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categoryName {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+.item1 img {
+    transition: transform .5s ease; ;
+}
+.item1:hover img {
+    transform: scale(1.2) ;
+}
+
+.swiper-button-prev {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 50%;
+    font-size: 10px;
+    padding: 5px;
+}
+
+/* Tùy chỉnh nút "Next" */
+.swiper-button-next {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 50%;
+    font-size: 10px;
+    padding: 5px;
+}
+
+/* Tùy chỉnh biểu tượng mũi tên bên trong nút */
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 14px;
+    color: #fff;
+}

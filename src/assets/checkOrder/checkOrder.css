@@ -1,0 +1,65 @@
+.check {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(232, 232, 232);
+    margin: 10px 0;
+}
+.check-container {
+    display: flex;
+    width: 100%;
+    margin: 20px;
+}
+.check-main {
+    width: 90%;
+    margin: 72px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+
+}
+.check-content {
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 15px 20px rgba(89, 89, 89, 0.2);
+}
+.check-title {
+    color: black;
+    border-bottom: 1px solid rgb(234, 233, 233);
+    text-align: center;
+}
+.check-title p{
+    font-size: 15px;
+    font-weight: 600;
+}
+.check-content form {
+    margin: 10px;
+    color: black;
+}
+.option-check input{
+   margin-left: 20px;
+}
+.enter-info input {
+    width: 100%;
+}
+.submit-check {
+    margin: 10px;
+    text-align: right;
+}
+.submit-check button{
+   background-color: rgb(33, 146, 245);
+   padding: 5px;
+   border-radius: 5px;
+}
+
+.order-conainer {
+    width: 550px;
+    margin: 30px;
+    padding: 20px;
+    color: black;
+    text-align: center;
+}

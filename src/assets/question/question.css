@@ -1,0 +1,42 @@
+.question-container {
+    width: 100%;
+    margin: auto;
+}
+.question-detail {
+    border: 1px solid gray;
+    border-radius: 10px;  
+    margin: 10px 0;
+
+}
+.question-title p{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: rgb(203,6,6);
+}
+
+.question-content {
+    border: 1px solid gray;
+    background-color: rgb(235, 231, 231);
+    border-radius: 10px;
+    padding: 2px;
+}
+.clicked{
+    width: 100%;
+    background-color: rgb(203,6,6);
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
+.question1 {
+    padding: 10px;
+}
+.answer p {
+    color: black;
+}
+.question-content p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    color: black;
+}

@@ -1,0 +1,58 @@
+.about-section {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  padding: 40px;
+  background-image: url('../../frontend/assets/images/banner/bg.jpg');
+  background-repeat: no-repeat;
+}
+
+.txt {
+  flex-direction: column;
+}
+
+.about-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #c90404;
+}
+
+.about-description {
+  font-size: 18px;
+  color: #222020;
+  margin-top: 20px;
+}
+
+.about-button {
+  margin-top: 20px;
+  background-color: #c90404;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.about-button:hover {
+  color: #e8a414;;
+}
+
+.about-brand {
+  font-size: 70px;
+  font-weight: bold;
+  color: black;
+}
+
+.about-brand span {
+  color: red;
+}
+
+.img {
+  width: 400px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}

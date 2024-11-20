@@ -1,0 +1,57 @@
+.body {
+    width: auto;
+    margin: auto;
+   
+}
+
+.image {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+    margin: 0 20px;
+}
+
+.image img {
+    width: 90%;
+    transition: transform 1.1s ease; ;
+}
+.image:hover img {
+    transform: scale(1.1) ;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.txt-name p:nth-child(2) {
+    color: rgb(217, 9, 9);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: normal;
+}
+.show-btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    color: #000;
+    background-color: rgb(203, 6, 6);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+}
+.show-btn:hover {
+    color: #e8a414;
+}
+.show-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

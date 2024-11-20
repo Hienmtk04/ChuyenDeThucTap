@@ -1,0 +1,55 @@
+.footer {
+    width: 100%;
+    background: rgb(234, 231, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.topic {
+    color: rgb(203, 6, 6);
+    font-size: 20px;
+}
+
+.content {
+    display: inline;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.content-item:hover {
+    color: #e8d20e;
+}
+
+.local-item {
+    width: 30px;
+    height: 30px;
+}
+
+.btn-send {
+    background-color: rgb(203, 6, 6);
+    width: 100px;
+    color: white;
+}
+
+.send-email {
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.infor {
+    display: flex;
+    border-bottom: 1px solid rgb(203, 6, 6);
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(203, 6, 6);
+    height: 40px;
+}
+
+.text-copy {
+    text-align: center;
+    color: white;
+}

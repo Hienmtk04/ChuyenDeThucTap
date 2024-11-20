@@ -1,0 +1,22 @@
+.user-name,
+.numphone,
+.email,
+.password,
+.gender {
+    margin: 15px 0;
+}
+
+.user-name-input input,  
+.numphone-input input,
+.email-input input,
+.password-input input,
+.gender-input select{
+    width: 400px;
+    padding: 10px;
+    border-bottom: 2px solid rgb(203, 6, 6);
+    border-radius: 10px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+ 

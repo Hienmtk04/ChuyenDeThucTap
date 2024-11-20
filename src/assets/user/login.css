@@ -1,0 +1,122 @@
+.login {
+    width: 100%;
+    margin: auto;
+
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-main {
+    min-width: 500px;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.option {
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-option {
+    width: 400px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.option-text:hover {
+    color: #f1a833;
+}
+
+.login-form {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.login-form p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+
+.email-input,
+.password-input {
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.email-input input,
+.password-input input {
+    width: 400px;
+    padding: 10px;
+    border-bottom: 2px solid rgb(203, 6, 6);
+    border-radius: 10px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.submit button {
+    width: 400px;
+    padding: 10px;
+    background-color: rgb(203, 6, 6);
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+
+.submit:hover button {
+    background-color: #f1a833;
+    transition: transform 1.1s ease;
+
+
+}
+
+.social-login {
+    text-align: center;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.google {
+    background-color: rgb(203, 6, 6)
+}

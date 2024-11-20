@@ -1,0 +1,202 @@
+.product-card {
+    width: 260px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-card-top {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    z-index: 2;
+    flex-direction: row;
+}
+
+.discount-label {
+    width:40px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.product-actions {
+    color: rgb(203, 6, 6);
+    font-size: 20px;
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    transition: transform 1.5s ease;
+
+}
+.product-actions:hover {
+    color: rgb(203, 6, 6);
+    transition: transform 1.5s ease;
+
+}
+
+.product-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.default-img {
+    display: block;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.hover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    opacity: 0;
+    /* Ẩn ảnh hover ban đầu */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.product-img:hover .default-img {
+    opacity: 0;
+    /* Ẩn ảnh gốc khi hover */
+}
+
+.product-img:hover .hover-img {
+    opacity: 1;
+}
+
+/* .product-image {
+    position: absolute;
+    z-index: 1;
+} */
+
+
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.product-info {
+    padding: 10px;
+}
+
+.price-section {
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.new-price {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: rgb(123, 123, 123);
+}
+
+.color-options {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+.option-view {
+    position: absolute;
+    display: none;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    flex-direction: row;
+    z-index: 2;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.product-img:hover .option-view {
+    display: block;
+    opacity: 1;
+    /* Hiển thị với hiệu ứng mờ dần */
+}
+
+
+.product-card:hover .option-view {
+    display: flex;
+}
+
+.show-quick .show-detail {
+    display: flex;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.show-quick {
+    background-color: #d4b115;
+}
+
+.show-detail {
+    background-color: rgb(167, 1, 1);
+}
+
+.option-view:hover {
+    background-color: #fff;
+    color: #d4b115;
+}
+
+.text-show {
+    color: #fff;
+}
+
+.text-show:hover {
+    color: #d4b115;
+}
+
+.show-detail:hover {
+    background-color: #fff;
+}
+
+.show-quick:hover {
+    background-color: #fff;
+}
+
+.color-variant .progress-bar {
+    background-color: rgb(167, 1, 1);
+}
+
+.text-sell {
+    color: rgb(167, 1, 1);
+}
+
+.color-variant {
+    height: 12px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+}

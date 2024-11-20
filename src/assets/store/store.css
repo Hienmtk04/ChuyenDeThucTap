@@ -1,0 +1,147 @@
+.section-store {
+    width: 100%;
+    margin: auto;
+}
+
+.store-banner {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.store-banner-content {
+    margin: 10px;
+    background-color: rgb(203, 6, 6);
+    max-width: 320px;
+    padding: 5px;
+}
+
+.banner-content-img {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.banner-content-img img {
+    width: 100px;
+    height: 70px;
+}
+
+.banner-content-txt {
+    justify-content: end;
+    align-items: end;
+}
+
+.banner-content-txt p:first-child {
+    text-align: right;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.banner-content-txt p:last-child {
+    text-align: right;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+    font-style: normal;
+    color: white;
+}
+
+.store-system {
+    margin: 20px 10px;
+}
+
+.system {
+    justify-content: center;
+    align-items: center;
+}
+
+.find-store {
+    background-color: rgb(217, 219, 220);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.enter-find {
+  border-radius: 10px;
+}
+.province {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.province span {
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    color: rgb(104, 105, 106);
+}
+.select-province select{
+    height: 30px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.location-card {
+    border: 1px solid rgb(203, 6, 6);
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;
+    margin: 20px ;
+  }
+  
+  .location-title {
+    color: #a00;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .location-info {
+    margin-bottom: 20px;
+  }
+  
+  .location-item {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .icons{
+    border: 1px solid rgb(203, 6, 6);
+    border-radius: 50%;
+    max-width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+  }
+  
+  .direction-button {
+    display: flex;
+    align-items: center;
+    background-color: #d5e5f2;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.8s;
+  }
+  
+  .direction-button:hover {
+    background-color: rgb(234, 195, 26);
+  }
+  
+  .direction-button .button-icon {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  

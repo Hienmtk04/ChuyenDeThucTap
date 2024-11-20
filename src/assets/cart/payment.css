@@ -1,0 +1,165 @@
+.info input {
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    border: 1px solid grey;
+    border: none;
+}
+h3 {
+    font-weight: bold;
+}
+.info select {
+    border-radius: 10px;
+    padding: 5px;
+    width: 400px;
+    border: 1px solid grey;
+    border: none;
+
+}
+
+.info textarea {
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    border: 1px solid grey;
+    border: none;
+
+}
+
+.info select option:disabled {
+    background-color: rgb(221, 221, 218);
+}
+
+.info {
+    margin: 10px 0;
+    border: 1px solid grey;
+    border-radius: 10px;
+
+}
+
+.shipping-method p {
+    margin-left: 0;
+    width: 100%;
+    padding: 15px;
+    color: black;
+    background-color: rgba(162, 236, 236, 0.6);
+    border-radius: 10px;
+}
+
+.method-group {
+    justify-content: center;
+    align-items: center;
+}
+
+.option-method {
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.container {
+    margin-top: 10px;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+.order-item img {
+    width: 15%;
+    position: relative;
+
+}
+.order-item {
+    position: relative;
+
+}
+.order-quantity {
+    position: absolute;
+    background-color: #1f79c3;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    top: -8px;
+    left: 75px;
+    color: white;
+}
+.voucher-input input {
+    width: 290px;
+    padding: 10px;
+    border: 1px solid rgb(210, 208, 208);
+    border-radius:  10px;
+
+}
+.voucher-input button {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    background-color: #80bbec;
+    border-radius: 5px;
+}
+.back button {
+    margin-left: 10px;
+    padding: 15px;
+    background-color: #1f79c3;
+    border-radius: 5px;
+    width: 50px;
+    color: white;
+    font-weight: bold;
+}

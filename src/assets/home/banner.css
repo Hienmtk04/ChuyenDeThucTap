@@ -1,0 +1,39 @@
+/* .banner {
+    margin: 40px 50px;
+}
+.banner-img img {
+    width: 600px;
+    transition: transform 1.1s ease; ;
+}
+.banner-img:hover img {
+    transform: scale(1.2) ;
+}
+.banner-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+} */
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .banner-img {
+    flex: 1 1 48%;
+    margin-bottom: 10px;
+  }
+  
+  .banner-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    .banner-img {
+      flex: 1 1 100%;
+    }
+  }
+  
